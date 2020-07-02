@@ -71,12 +71,18 @@ struct ContentView: View {
                          
                          // 7
                          ForEach(self.dogs, id: \.self) { dog in
-                           
-                             CardView()
-                                  // 8
-                                 .frame(width: self.getCardWidth(geometry, id: dog.id), height: 400)
-                                 .offset(x: 0, y: self.getCardOffset(geometry, id: dog.id))
-                            
+                            Group {
+                                
+                            if (self.maxID - 3)...self.maxID ~= dog.id {
+                                
+                                 CardView()
+                                      // 8
+                                     .frame(width: self.getCardWidth(geometry, id: dog.id), height: 400)
+                                     .offset(x: 0, y: self.getCardOffset(geometry, id: dog.id))
+                                }
+                                    
+                                
+                            }
                             
                          }
                      }
