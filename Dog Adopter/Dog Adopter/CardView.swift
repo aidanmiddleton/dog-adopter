@@ -26,13 +26,13 @@ struct CardView: View {
                 
                 HStack {
                     VStack(alignment: .leading, spacing: 6) {
-                        Text("Debra Weber, 28")
+                        Text("Sammy")
                             .font(.title)
                             .bold()
-                        Text("Judge")
+                        Text("3 Years Old")
                             .font(.subheadline)
                             .bold()
-                        Text("13 Mutual Friends")
+                        Text("Female")
                             .font(.subheadline)
                             .foregroundColor(.gray)
                     }
@@ -47,6 +47,7 @@ struct CardView: View {
             .background(Color.white)
             .cornerRadius(10)
             .shadow(radius: 5)
+            .animation(.interactiveSpring())
             .offset(x: self.translation.width, y: 0) // 2
             .rotationEffect(.degrees(Double(self.translation.width / geometry.size.width) * 25), anchor: .bottom)
             .gesture(
