@@ -33,6 +33,12 @@ struct ContentView: View {
         Dog(id: 3, name: "Gator", age: 8, description: "The loyalest of companions", imageName: "dog 3", location: "Salmon Arm", sex: "Male", goodWithKids: true),
         Dog(id: 4, name: "Gator", age: 8, description: "The loyalest of companions", imageName: "dog 3", location: "Salmon Arm", sex: "Male", goodWithKids: true),
         Dog(id: 5, name: "Gator", age: 8, description: "The loyalest of companions", imageName: "dog 3", location: "Salmon Arm", sex: "Male", goodWithKids: true),
+        Dog(id: 6, name: "Gator", age: 8, description: "The loyalest of companions", imageName: "dog 3", location: "Salmon Arm", sex: "Male", goodWithKids: true),
+        Dog(id: 7, name: "Gator", age: 8, description: "The loyalest of companions", imageName: "dog 3", location: "Salmon Arm", sex: "Male", goodWithKids: true),
+        Dog(id: 8, name: "Gator", age: 8, description: "The loyalest of companions", imageName: "dog 3", location: "Salmon Arm", sex: "Male", goodWithKids: true),
+                        
+        Dog(id: 9, name: "Gator", age: 8, description: "The loyalest of companions", imageName: "dog 3", location: "Salmon Arm", sex: "Male", goodWithKids: true),
+        Dog(id: 10, name: "Gator", age: 8, description: "The loyalest of companions", imageName: "dog 3", location: "Salmon Arm", sex: "Male", goodWithKids: true),
 
     ]
     
@@ -65,12 +71,12 @@ struct ContentView: View {
                          
                          // 7
                          ForEach(self.dogs, id: \.self) { dog in
-                            
                            
                              CardView()
                                   // 8
                                  .frame(width: self.getCardWidth(geometry, id: dog.id), height: 400)
                                  .offset(x: 0, y: self.getCardOffset(geometry, id: dog.id))
+                            
                             
                          }
                      }
