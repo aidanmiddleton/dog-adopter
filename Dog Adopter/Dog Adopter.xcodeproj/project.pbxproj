@@ -17,6 +17,7 @@
 		DEFBD67924B1190C00C51D2F /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFBD67824B1190C00C51D2F /* NavBar.swift */; };
 		DEFBD67B24B11BC100C51D2F /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFBD67A24B11BC100C51D2F /* SwipeView.swift */; };
 		DEFBD67D24B11CC100C51D2F /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFBD67C24B11CC100C51D2F /* DateView.swift */; };
+		DEFBD67F24B12D2100C51D2F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFBD67E24B12D2100C51D2F /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		DEFBD67824B1190C00C51D2F /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 		DEFBD67A24B11BC100C51D2F /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
 		DEFBD67C24B11CC100C51D2F /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		DEFBD67E24B12D2100C51D2F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				DEFBD67824B1190C00C51D2F /* NavBar.swift */,
 				DEFBD67A24B11BC100C51D2F /* SwipeView.swift */,
 				DEFBD67C24B11CC100C51D2F /* DateView.swift */,
+				DEFBD67E24B12D2100C51D2F /* MenuView.swift */,
 			);
 			path = "Dog Adopter";
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEFBD67924B1190C00C51D2F /* NavBar.swift in Sources */,
+				DEFBD67F24B12D2100C51D2F /* MenuView.swift in Sources */,
 				DE252F7E24AD51DB00888FDD /* AppDelegate.swift in Sources */,
 				DEFBD67D24B11CC100C51D2F /* DateView.swift in Sources */,
 				DE252F8024AD51DB00888FDD /* SceneDelegate.swift in Sources */,
